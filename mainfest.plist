@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://github.com/XGerry/qw/blob/master/icon.png</string>
+					<string>https://github.com/XGerry/qw/blob/master/icon.png?raw=true</string>
 				</dict>
 			</array>
 			<key>metadata</key>
