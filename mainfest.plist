@@ -17,13 +17,13 @@
                     <key>kind</key>
                     <string>display-image</string>
                     <key>url</key>
-                    <string>https://github.com/XGerry/qw/blob/master/icon.png</string>
+                    <string>https://github.com/XGerry/qw2/blob/master/icon.png?raw=true</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>full-size-image</string>
                     <key>url</key>
-                    <string>https://github.com/XGerry/qw/blob/master/full-icon.png</string>
+                    <string>https://github.com/XGerry/qw2/blob/master/icon.png?raw=true</string>
                 </dict>
 			</array>
 			<key>metadata</key>
