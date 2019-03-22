@@ -61,20 +61,35 @@
 		<template id="tab1.html">
 			<ons-page id="Tab1">
 				<ons-card style="padding-bottom:5px">
-					<div style="text-align:center; color:#999;">
+					<!--<div style="text-align:center; color:#999;">
 					<ons-row vertical-align="center">
 						<ons-col style="text-align:center;font-size:14pt">請輸入以下資料：</ons-col>
 					</ons-row>
-					</div>
+					</div>-->
 					<div class="content">
-						<div class="form-group">
-							<label class="form-label" for="cnty_code">Country Name</label>
-							<input id="cnty_code" class="form-input" type="text" />
-						</div>
-						<div class="form-group">
-							<label class="form-label" for="post_code">Postal Code</label>
-							<input id="post_code" class="form-input" type="number" />
-						</div>
+						<ons-row style="margin-top: 5px">
+							<ons-col width="100%">
+							<div class="form-group">
+								<label class="form-label" for="cnty_code">Country Name</label>
+								<input id="cnty_code" class="form-input" type="text" />
+							</div>
+							</ons-col>
+						</ons-row>
+						<ons-row style="margin-top: 20px">
+							<ons-col width="49%">
+							<div class="form-group">
+								<label class="form-label" for="post_code">Postal Code</label>
+								<input id="post_code" class="form-input" type="number" />
+							</div>
+							</ons-col>
+							<ons-col width="2%"></ons-col>
+							<ons-col width="49%">
+								<div class="form-group">
+									<label class="form-label" for="rc_comm">Special Handling</label>
+									<input id="rc_comm" class="form-input" type="text" readonly/>
+								</div>
+							</ons-col>
+						</ons-row>
 						
 						<!--<ons-row style="margin-top: 10px">
 							<ons-col width="45%"><span style="color: #999;">Service</span></ons-col>
@@ -135,6 +150,14 @@
 				</ons-card>
 				
 				<div style="text-align:center">請在貨件上貼上標籤</div>
+						<ons-row style="margin-top: 5px">
+							<ons-col width="50%">
+								<div style="text-align:center;">Primary</div>
+							</ons-col>
+							<ons-col width="50%">
+								<div style="text-align:center;">Special Handling</div>
+							</ons-col>
+						</ons-row>
 				<div style="text-align:center">
 					<canvas id="Shape_Result" height="80" style="width:100%;"></canvas>
 				</div>
@@ -251,6 +274,6 @@
 		<script type="text/javascript" src="Classes/jQuery/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="Classes/jQuery.NumPad/1.4/jquery.numpad.js?001"></script>
 		<!--<script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>-->
-		<script type="text/javascript" src="js/index.js?022"></script>
+		<script type="text/javascript" src="js/index.js?023"></script>
 	</body>
 </html>
